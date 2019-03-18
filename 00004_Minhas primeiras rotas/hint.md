@@ -1,0 +1,1 @@
+Não se esqueça de usar o atributo `src` para a tag` `<img>` e o atributo `href` para a tag` <a> `
