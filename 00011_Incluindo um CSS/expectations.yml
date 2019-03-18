@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: head
+  inspection: DeclaresTag
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: link
+  inspection: DeclaresAttribute
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: link
+  inspection: DeclaresAttribute

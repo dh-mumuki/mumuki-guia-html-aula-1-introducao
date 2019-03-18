@@ -1,0 +1,1 @@
+A tag correta para este exercício é `<link>` que vai dentro do `<head>`
