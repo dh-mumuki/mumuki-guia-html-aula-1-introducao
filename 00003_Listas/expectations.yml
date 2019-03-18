@@ -23,4 +23,4 @@ expectations:
   inspection: DeclaresTag
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: ol
-  inspection: DeclaresTag
+  inspection: DeclaresAttribute
