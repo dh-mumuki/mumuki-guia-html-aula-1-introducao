@@ -1,0 +1,1 @@
+No vídeo do Youtube, podemos clicar na opção "Compartilhar" e, em seguida, na opção "Inserir" para obter o "iframe" que o YouTube nos fornece

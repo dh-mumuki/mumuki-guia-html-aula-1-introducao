@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html
+  inspection: DeclaresTag
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html
+  inspection: DeclaresTag
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: body
+  inspection: DeclaresTag
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: iframe
+  inspection: DeclaresAttribute
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: iframe
+  inspection: DeclaresAttribute
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: iframe
+  inspection: DeclaresAttribute
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: iframe
+  inspection: DeclaresAttribute
