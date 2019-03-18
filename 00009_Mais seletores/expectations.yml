@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:p
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.negrito
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:#gigante
+  inspection: DeclaresStyle
