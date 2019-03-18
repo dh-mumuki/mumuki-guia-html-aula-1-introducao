@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h2
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h2
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h2
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h1
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h1
+  inspection: DeclaresStyle
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:body
+  inspection: DeclaresStyle
