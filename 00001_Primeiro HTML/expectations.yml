@@ -4,8 +4,8 @@ expectations:
   binding: "*"
   inspection: DeclaresTag:html
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: html
+  binding: head
   inspection: DeclaresTag
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: html
+  binding: body
   inspection: DeclaresTag
