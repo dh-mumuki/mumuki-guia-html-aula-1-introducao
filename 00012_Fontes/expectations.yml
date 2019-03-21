@@ -2,19 +2,19 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:font-family:Arial
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:font-size:25px
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:font-weight:bold
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:font-style:italic
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:text-decoration:underline
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:text-align:center
