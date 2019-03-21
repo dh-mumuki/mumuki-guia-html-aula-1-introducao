@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresTag:html
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: head
-  inspection: DeclaresTag
+  inspection: DeclaresTag:head
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
-  inspection: DeclaresTag
+  inspection: DeclaresTag:body
