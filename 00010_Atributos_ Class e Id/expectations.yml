@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: h1
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:id
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: h2
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:class
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: h1
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:class
