@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: head
-  inspection: DeclaresTag
+  inspection: DeclaresTag:link
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: link
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:href
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: link
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:rel
