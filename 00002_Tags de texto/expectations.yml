@@ -5,16 +5,16 @@ expectations:
   inspection: DeclaresTag:html
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html
-  inspection: DeclaresTag
+  inspection: DeclaresTag:head
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html
-  inspection: DeclaresTag
+  inspection: DeclaresTag:body
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
-  inspection: DeclaresTag
+  inspection: DeclaresTag:h1
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
-  inspection: DeclaresTag
+  inspection: DeclaresTag:h2
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
-  inspection: DeclaresTag
+  inspection: DeclaresTag:p
