@@ -2,10 +2,10 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:color:red
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.negrito
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:font-weight:bold
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:#gigante
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:font-size:40px
