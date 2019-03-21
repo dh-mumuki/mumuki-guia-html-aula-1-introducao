@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:p
-  inspection: DeclaresStyle
+  inspection: DeclaresStyle:color:red
