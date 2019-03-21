@@ -2,22 +2,22 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresTag
+  inspection: DeclaresTag:html
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html
-  inspection: DeclaresTag
+  inspection: DeclaresTag:head
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html
-  inspection: DeclaresTag
+  inspection: DeclaresTag:body
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
-  inspection: DeclaresTag
+  inspection: DeclaresTag:a
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: a
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:href:"https://google.com"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
-  inspection: DeclaresTag
+  inspection: DeclaresTag:img
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: img
-  inspection: DeclaresAttribute
+  inspection: DeclaresAttribute:src="http://bit.do/imagen-blend"
