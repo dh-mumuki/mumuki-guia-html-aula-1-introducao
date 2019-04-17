@@ -17,4 +17,4 @@ expectations:
   inspection: DeclaresStyle:background-color:rgba(0,0,0,0.5)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:body
-  inspection: DeclaresStyle:background-style:cover
+  inspection: DeclaresStyle:background-size:cover
