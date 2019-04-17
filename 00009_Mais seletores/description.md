@@ -1,6 +1,6 @@
 Mais uma vez vamos escrever apenas CSS, mas neste caso vamos pedir 3 seletores:
 
-> Primeiro um seletor que afeta todas as tags `p` com a regra` color: network;`
+> Primeiro um seletor que afeta todas as tags `p` com a regra` color: red;`
 
 > Em segundo lugar, crie um seletor que afeta todas as tags com a classe "negrito" com a regra "font-weight: bold;"
 
