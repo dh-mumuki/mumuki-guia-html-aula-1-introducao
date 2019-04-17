@@ -13,11 +13,11 @@ expectations:
   binding: body
   inspection: DeclaresTag:a
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: a
-  inspection: DeclaresAttribute:href:"https://google.com"
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: body
   inspection: DeclaresTag:img
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: img
   inspection: DeclaresAttribute:src="http://bit.do/imagen-blend"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: a
+  inspection: DeclaresAttribute:href="http://bit.do/imagen-blend"
